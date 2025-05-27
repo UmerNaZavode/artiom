@@ -27,10 +27,12 @@ tabsBtns.forEach((btn, index) => btn.addEventListener("click", () => {
 
 const anchors = document.querySelectorAll(".header__nav a")
 
-anchors.forEach(anc =>{
-    anc.addEventListener("click", function(event) {
-       event.preventDefault();
+anchors.forEach(anc => {
+   anc.addEventListener("click", function(event) {
+      event.preventDefault();
 
 
-    });
+
+   });
 });
+
